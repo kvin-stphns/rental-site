@@ -1,4 +1,4 @@
-import logo from "../images/exotic-car-icon-removebg.png"
+// import logo from "../images/exotic-car-icon-removebg.png"
 import img1 from "../images/600lt.png"
 import img2 from "../images/aston.png"
 import img3 from "../images/bently.webp"

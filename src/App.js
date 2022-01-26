@@ -1,15 +1,12 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./components/Landing";
-import Rentals from "./components/Rentals.js";
+// import Rentals from "./components/Rentals.js";
 import Main from "./components/MainComp.js";
 // import Memberships from "./components/Memberships.js";
 // import Pricing from "./components/Pricing.js";
 // import { RENTALS } from "./data/Rentals";
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import NavbarComp from "./components/NavbarComp.js";
-
-
-
 
 
 
