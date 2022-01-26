@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Landing from "./components/Landing";
+import Rentals from "./components/Rentals.js";
+import Main from "./components/MainComp.js";
+// import Memberships from "./components/Memberships.js";
+// import Pricing from "./components/Pricing.js";
+// import { RENTALS } from "./data/Rentals";
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import NavbarComp from "./components/NavbarComp.js";
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div>
+     <Switch>
+      <Route exact path="/" component={Landing} />
+      <Route exact path="/rentals" component={Main} />
+      {/* <Route path="/memberships" component={Memberships} />
+      <Route path="/pricing" component={Pricing} /> */}
+     </Switch>
     </div>
+    {/* <Main /> */}
+    </Router>
   );
 }
 
