@@ -66,7 +66,7 @@ export default function Contact() {
     </FormGroup>
     <FormGroup row>
       <Label for="Valid License" sm={2}>
-        File
+        Valid License
       </Label>
       <Col sm={10}>
         <Input type="file" name="file" id="file" />

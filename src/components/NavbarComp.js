@@ -32,14 +32,14 @@ export class NavbarComp extends Component {
                                                         </NavItem>
                                                         <UncontrolledDropdown nav inNavbar>
                                                                 <DropdownToggle nav caret>
-                                                                        Pricing
+                                                                        Contact
                                                                 </DropdownToggle>
                                                                 <DropdownMenu right>
                                                                         <DropdownItem>
-                                                                                Option 1
+                                                                                Inquiries
                                                                         </DropdownItem>
                                                                         <DropdownItem>
-                                                                                Option 2
+                                                                                Sign Up
                                                                         </DropdownItem>
                                                                 </DropdownMenu>
                                                         </UncontrolledDropdown>
