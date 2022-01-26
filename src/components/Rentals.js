@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardImg, CardDeck, CardBody, CardHeader } from 'reactstrap';
-// import styles from "../styles/styles.css";
+import "../styles/styles.css";
 
 function RenderRentalItem({rentals}) {
     return (
